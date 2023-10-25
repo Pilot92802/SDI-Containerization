@@ -1,0 +1,17 @@
+## Run hello web app from current docker image
+-  docker run -d -p 8080:8080 --name myspringapp-1 colbydowns/myspringapp
+
+## In order to fork repo and modify
+-  click fork button 
+-  provide your own gitlab information
+-  click Fork Project
+-  go to your repo
+-  see clone instructions
+
+## In order to clone the repo
+-  click Clone button, copy appropriate clone URI
+-  go to your own local use: git clone <the copied URI>
+-  modify as needed
+-  ./gradlew build
+-  docker build -t <your image tag> .
+-  docker run -d -p 8080:8080 -name myspringapp-1 myspringapp
