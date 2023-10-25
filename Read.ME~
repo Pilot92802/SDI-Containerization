@@ -1,5 +1,5 @@
 ## Run hello web app from current docker image
--  docker run -d -p 8080:8080 --name myspringapp-1 registry.gitlab.galvanize.com/galvanize-it/curricula/delivery/enterprise/sf/cse-cicd-october-2023/student-work/colbydowns/myspringapp
+-  docker run -d -p 8080:8080 --name myspringapp-1 colbydowns/myspringapp
 
 ## In order to fork repo and modify
 -  click fork button 
